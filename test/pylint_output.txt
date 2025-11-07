@@ -1,0 +1,8 @@
+************* Module adapt_spotsl.spotsl
+/home/user/ros2workmo6/install/adapt_spotsl/lib/python3.10/site-packages/adapt_spotsl/spotsl.py:85:8: E1101: Instance of 'PoseStamped' has no 'position' member (no-member)
+/home/user/ros2workmo6/install/adapt_spotsl/lib/python3.10/site-packages/adapt_spotsl/spotsl.py:86:8: E1101: Instance of 'PoseStamped' has no 'position' member (no-member)
+/home/user/ros2workmo6/install/adapt_spotsl/lib/python3.10/site-packages/adapt_spotsl/spotsl.py:87:8: E1101: Instance of 'PoseStamped' has no 'position' member (no-member)
+
+------------------------------------------------------------------
+Your code has been rated at 7.69/10 (previous run: 7.69/10, +0.00)
+

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="0.322" timestamp="2024-06-16T20:54:33.181488" hostname="Vivobook"><testcase classname="test.test_spot_finder_integration" name="test_spot_finder_integration" time="0.050" /></testsuite></testsuites>

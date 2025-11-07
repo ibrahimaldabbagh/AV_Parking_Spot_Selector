@@ -1,0 +1,39 @@
+ros2 topic pub /evcsn_msg v2x/msg/ItsEVCSNData "{total_number_of_stations: 1, charging_stations_data: [{charging_station_id: 3, utility_distributor_id: '', provider_id: '', charging_station_location: {latitude: 502413783, longitude: 113213317, position_confidence_ellipse: {semi_major_axis_length: 0, semi_minor_axis_length: 0, semi_major_axis_orientation: 0}, altitude: {altitude_value: 0, altitude_confidence: 0}}, address: '', phone_number: 0, accessibility: 'Free', digital_map: 0, opening_days_hours: '', pricing: '', booking_contact_info: '', payment: '', charging_spots_available: []}]}"
+
+
+
+ros2 topic pub /evcsn_msg v2x/msg/ItsEVCSNData "{total_number_of_stations: 1, charging_stations_data: [{charging_station_id: 2, utility_distributor_id: '', provider_id: '', charging_station_location: {latitude: 502413738, longitude: 113213317, position_confidence_ellipse: {semi_major_axis_length: 0, semi_minor_axis_length: 0, semi_major_axis_orientation: 0}, altitude: {altitude_value: 0, altitude_confidence: 0}}, address: '', phone_number: 0, accessibility: 'Paying', digital_map: 0, opening_days_hours: '', pricing: '', booking_contact_info: '', payment: '', charging_spots_available: []}]}"
+
+
+
+SPOT1
+Enter X coordinate (meters): 4.75
+Enter Y coordinate (meters): 5.25
+Latitude: 502413693 degrees
+Longitude: 113213317 degrees
+
+
+SPOT2
+Enter X coordinate (meters): 4.75
+Enter Y coordinate (meters): 5.75
+Latitude: 502413738 degrees
+Longitude: 113213317 degrees
+
+SPOT3
+Enter X coordinate (meters): 4.75
+Enter Y coordinate (meters): 6.25
+Latitude: 502413783 degrees
+Longitude: 113213317 degrees
+
+
+SPOT4
+Enter X coordinate (meters): 4.75
+Enter Y coordinate (meters): 6.75
+Latitude: 5024138281 degrees
+Longitude: 113213317 degrees
+
+
+ros2 topic pub /spot_list std_msgs/String "{data: '{\"id\": 2, \"x_coordinate\": \"4.5\", \"y_coordinate\": \"5.75\", \"accessibility\": \"free\", \"isOccupied\": \"spot2_false\"}'}"
+
+
+
